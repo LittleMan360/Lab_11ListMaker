@@ -12,7 +12,7 @@ public class ListMaker {
         // Creating a new ArrayList of Strings named 'arrList'
         ArrayList<String> arrList = new ArrayList<>();
         // Declaring a String variable named 'ans' and initializing it to an empty string
-        String ans = "";
+        String ans;
         // Declaring a boolean variable named 'run' and initializing it to true
         boolean run = true;
 
@@ -77,7 +77,7 @@ public class ListMaker {
         if (arrList.isEmpty()) {
             System.out.println("Your list is currently empty.");
         } else {
-            // If ArrayList is not empty, display the contents 
+            // If ArrayList is not empty, display the contents
             System.out.println("Current list:");
             for (int i = 0; i < arrList.size(); i++) {
                 System.out.printf(" %d. %s\n", i + 1 , arrList.get(i));
